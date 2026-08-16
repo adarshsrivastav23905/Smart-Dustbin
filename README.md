@@ -301,28 +301,53 @@ $$\text{Fill Percentage (\%)} = \left( \frac{D_{\text{empty}} - D_{\text{meas}}}
 
 ## 📸 Project Screenshots
 
-Recommended evidence files stored in [`screenshots/`](file:///d:/Diploma%20Course/subjects/Embedded%20Systems/Smart-Dustbin/screenshots):
+### 📁 Project Directory Structure
+![Project Structure](screenshots/01_project_structure.png)
 
-### 🔧 Complete Wokwi Circuit Topology (UNO + Dual Sensors + Servo + 16x2 I2C LCD)
+### 🔧 Complete Circuit Wiring Diagram
+![Complete Circuit Diagram](screenshots/02_circuit_diagram.png)
+
+### ⚡ Complete Wokwi Circuit Topology (UNO + Dual Sensors + Servo + 16x2 I2C LCD)
 ![Complete Wokwi Circuit](screenshots/03_complete_wokwi_circuit.png)
 
-### 🟢 Lid Closed Normal State
-![Lid Closed Normal](screenshots/04_lid_closed_state.png)
+### 🟢 Lid Closed Normal State (Fill: 0%)
+![Lid Closed Normal State](screenshots/04_lid_closed_state.png)
 
-### 🖐️ Hand Approaching & Lid Open
-![Hand Approaching Lid Open](screenshots/06_lid_open_state.png)
+### 🖐️ Hand Proximity Detection Trigger (15 cm)
+![Hand Approaching State](screenshots/05_hand_approaching_state.png)
+
+### 🚪 Automatic Servo Lid Open State (100°)
+![Lid Open State](screenshots/06_lid_open_state.png)
+
+### 📊 Empty Bin Reading (0% Fill)
+![Empty Bin Reading](screenshots/07_empty_bin_reading.png)
 
 ### 📊 50% Fill Level Telemetry on 16x2 LCD
 ![50 Percent Fill Reading](screenshots/08_50_percent_bin_reading.png)
 
-### 🚨 Full-Bin Red LED & Buzzer Alarm (`BIN FULL! LOCK`)
-![Full Bin Red LED Alert](screenshots/11_red_led_alert.png)
+### 📊 75% Fill Level Telemetry on 16x2 LCD
+![75 Percent Fill Reading](screenshots/09_75_percent_bin_reading.png)
 
-### 🔒 Safety Interlock Active (Lid Locked)
+### 🚨 Critical Full-Bin Reading (90% Fill)
+![Full Bin Reading](screenshots/10_full_bin_reading.png)
+
+### 🔴 Red LED Warning Alert Active
+![Red LED Alert](screenshots/11_red_led_alert.png)
+
+### 🔊 Active Buzzer Acoustic Pulse Alert
+![Buzzer Alert](screenshots/12_buzzer_alert.png)
+
+### 🔒 Safety Interlock Active (Lid Locked Closed)
 ![Safety Interlock Active](screenshots/13_safety_interlock_active.png)
 
-### 📟 Serial Monitor Debugging Output
+### 📟 Serial Monitor Telemetry Output (9600 Baud)
 ![Serial Monitor Output](screenshots/14_serial_monitor_output.png)
+
+### 💻 Modular C++ Source Code in VS Code
+![Source Code Screenshot](screenshots/15_source_code_screenshot.png)
+
+### 🌐 GitHub Repository Homepage Preview
+![GitHub Repository Preview](screenshots/16_github_repository_preview.png)
 
 ---
 
