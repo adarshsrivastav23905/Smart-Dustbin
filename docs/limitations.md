@@ -12,7 +12,7 @@
 
 3. **Servo Mechanical Load & Current Spikes**:
    - Standard hobby servos (SG90) draw up to $500\text{ mA}$ under mechanical stall. When powered directly from an Arduino UNO 5V regulator, inductive voltage dips (brownouts) can reset the microcontroller.
-   - *Mitigation*: Separate dedicated 5V power supply rail for servo motors with common ground and decoupling capacitors ($100\mu\text{F} - 470\mu\text{F}$) in real hardware setups.
+   - *Mitigation*: Separate dedicated 5V power supply rail for servo motors with common ground and decoupling capacitors (100 µF - 470 µF) in real hardware setups.
 
 ## 2. Environmental Constraints
 - **Temperature Dependence of Sound**: The speed of sound varies with ambient temperature ($v \approx 331.3 + 0.606 \times T\text{ m/s}$). For uncalibrated systems at extreme temperatures ($0^\circ\text{C}$ vs $40^\circ\text{C}$), depth calculation drift is approx $\pm 3.5\%$.

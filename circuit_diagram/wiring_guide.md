@@ -38,5 +38,5 @@ Using Ohm's Law ($V = I \times R \implies R = \frac{V_{supply} - V_{forward}}{I_
 
 ## 3. Physical & Breadboard Layout Guidelines
 1. **Power Rails**: Run red jumper from Arduino `5V` to breadboard red (+) rail; black jumper from Arduino `GND` to breadboard blue (-) rail.
-2. **Decoupling**: When using physical servo motors, place a $100\mu\text{F}$ capacitor across 5V and GND close to the servo lead to prevent voltage sagging during servo motor initial acceleration.
+2. **Decoupling**: When using physical servo motors, place a 100 µF capacitor across 5V and GND close to the servo lead to prevent voltage sagging during servo motor initial acceleration.
 3. **Common Ground**: All peripherals must share the identical reference potential (GND).

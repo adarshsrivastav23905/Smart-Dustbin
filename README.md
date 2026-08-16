@@ -54,7 +54,7 @@ The complete prototype was developed and validated virtually using **Wokwi** wit
 - 16x2 I2C Liquid Crystal Display (LCD1602 with PCF8574 I2C backpack)
 - Microcontroller-based central control unit (ATmega328P / Arduino UNO)
 - Proximity detection threshold configured at **20 cm**
-- Precise distance calculation using speed of sound in air ($0.0343\text{ cm/\mu s}$)
+- Precise distance calculation using speed of sound in air (0.0343 cm/µs)
 - Automatic fill percentage calculation relative to bin height ($30\text{ cm}$)
 - Micro servo lid actuation ($10^\circ$ closed to $100^\circ$ open)
 - Non-blocking cooperative state machine (zero delay blocking in main loop)
@@ -136,10 +136,10 @@ Transmit Telemetry via Serial Monitor
 
 Ultrasonic distance is computed from pulse echo duration:
 
-$$\text{Distance (cm)} = \frac{\text{Echo Duration (\mu s)} \times \text{Speed of Sound (cm/\mu s)}}{2}$$
+$$\text{Distance (cm)} = \frac{\text{Echo Duration (µs)} \times \text{Speed of Sound (cm/µs)}}{2}$$
 
 Where:
-$$\text{Speed of Sound in Air} \approx 343\text{ m/s} = 0.0343\text{ cm/\mu s}$$
+$$\text{Speed of Sound in Air} \approx 343\text{ m/s} = 0.0343\text{ cm/µs}$$
 
 ### Bin Fill Percentage Formula
 
@@ -202,11 +202,11 @@ $$\text{Fill Percentage (\%)} = \left( \frac{D_{\text{empty}} - D_{\text{meas}}}
 |---|---|---:|---|---|
 | **Hand Proximity Sensor** | VCC | 5V | Power | +5V DC Supply Rail |
 | | GND | GND | Power | Common Ground Reference |
-| | TRIG | Digital Pin 9 (D9) | Output | 10 $\mu s$ ultrasonic burst trigger pulse |
+| | TRIG | Digital Pin 9 (D9) | Output | 10 µs ultrasonic burst trigger pulse |
 | | ECHO | Digital Pin 10 (D10) | Input | Time-of-flight echo pulse return |
 | **Waste Level Sensor** | VCC | 5V | Power | +5V DC Supply Rail |
 | | GND | GND | Power | Common Ground Reference |
-| | TRIG | Digital Pin 6 (D6) | Output | 10 $\mu s$ ultrasonic burst trigger pulse |
+| | TRIG | Digital Pin 6 (D6) | Output | 10 µs ultrasonic burst trigger pulse |
 | | ECHO | Digital Pin 7 (D7) | Input | Time-of-flight echo pulse return |
 | **16x2 I2C LCD Display** | VCC | 5V | Power | +5V DC Power Rail |
 | | GND | GND | Power | Common Ground Reference |
