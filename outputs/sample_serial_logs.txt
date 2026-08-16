@@ -1,0 +1,20 @@
+==========================================================
+  SMART DUSTBIN - EMBEDDED SYSTEM CONTROL PLATFORM
+  Architecture: Arduino UNO / ATmega328P
+  Subsystems: Dual Ultrasonic + Servo + PWM Alert Logic
+==========================================================
+[SYS] System Initialized Successfully. Running main loop...
+
+[TELEMETRY] Hand: 50.0 cm | Waste Depth: 30.0 cm | Fill: 0%  | Lid: CLOSED | Status: NORMAL (READY)
+[TELEMETRY] Hand: 50.0 cm | Waste Depth: 30.0 cm | Fill: 0%  | Lid: CLOSED | Status: NORMAL (READY)
+[TELEMETRY] Hand: 12.4 cm | Waste Depth: 30.0 cm | Fill: 0%  | Lid: OPEN   | Status: NORMAL (READY)
+[TELEMETRY] Hand: 12.4 cm | Waste Depth: 30.0 cm | Fill: 0%  | Lid: OPEN   | Status: NORMAL (READY)
+[TELEMETRY] Hand: 45.0 cm | Waste Depth: 30.0 cm | Fill: 0%  | Lid: OPEN   | Status: NORMAL (READY)
+[TELEMETRY] Hand: 45.0 cm | Waste Depth: 30.0 cm | Fill: 0%  | Lid: CLOSED | Status: NORMAL (READY)
+[TELEMETRY] Hand: 50.0 cm | Waste Depth: 24.0 cm | Fill: 25% | Lid: CLOSED | Status: NORMAL (READY)
+[TELEMETRY] Hand: 50.0 cm | Waste Depth: 18.0 cm | Fill: 50% | Lid: CLOSED | Status: NORMAL (READY)
+[TELEMETRY] Hand: 50.0 cm | Waste Depth: 12.0 cm | Fill: 75% | Lid: CLOSED | Status: NORMAL (READY)
+[TELEMETRY] Hand: 50.0 cm | Waste Depth: 8.2 cm  | Fill: 91% | Lid: CLOSED | Status: CRITICAL (FULL)
+[TELEMETRY] Hand: 10.0 cm | Waste Depth: 8.2 cm  | Fill: 91% | Lid: CLOSED | Status: CRITICAL (FULL) [INTERLOCK ACTIVE]
+[TELEMETRY] Hand: 50.0 cm | Waste Depth: 6.0 cm  | Fill: 100%| Lid: CLOSED | Status: CRITICAL (FULL)
+[TELEMETRY] Hand: 50.0 cm | Waste Depth: 30.0 cm | Fill: 0%  | Lid: CLOSED | Status: NORMAL (READY)
