@@ -12,7 +12,7 @@ Embedded Systems | IoT | Python | AI
 
 ---
 
-## 📌 Project Overview
+## 📌 Project Overview 
 
 The **Smart Dustbin System Using Ultrasonic Sensors and Microcontroller** is an industry-oriented embedded system prototype designed to address public sanitation, hygiene, and municipal waste management challenges.
 
