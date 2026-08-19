@@ -1,5 +1,5 @@
 # 🗑️ Smart Dustbin System Using Ultrasonic Sensors, 16x2 LCD, and Microcontroller
-
+ 
 > An automated, touchless, dual-sensor smart waste management prototype built with **Arduino UNO / Embedded C++** that automatically detects hand proximity for hands-free lid operation, measures internal waste fill level in real time, displays live telemetry on a 16x2 I2C LCD screen, generates visual/audio alarms, enforces an overflow safety interlock, and transmits continuous diagnostic serial telemetry.
 
 ---
