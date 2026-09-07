@@ -5,7 +5,7 @@
  * AUTHOR: Adarsh Srivastav
  * REPOSITORY: Smart-Dustbin-Embedded-System
  * ============================================================================
- * 
+ *    
  * DESCRIPTION:
  * An automated, hygienic, dual-sensor smart waste management system designed
  * for institutional and public deployment. It features:
