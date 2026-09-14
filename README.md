@@ -4,7 +4,7 @@
     
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Author   
 
 **Adarsh Srivastav**  
 Computer Science and Engineering (CSE) Student  
