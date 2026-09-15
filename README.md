@@ -6,7 +6,7 @@
 
 ## 👨‍💻 Author   
 
-**Adarsh Srivastav**  
+**Adarsh Srivastav**     
 Computer Science and Engineering (CSE) Student  
 Embedded Systems | IoT | Python | AI
 
