@@ -31,7 +31,7 @@ The complete prototype was developed and validated virtually using **Wokwi** wit
 ---
 
 ## 🎯 Objectives
-
+    
 - Automatically detect hand/object proximity for touchless bin lid opening.
 - Continuously monitor internal waste fill depth using time-of-flight ultrasonic measurement.
 - Compute real-time fill volume and fill percentage ($0\%$ to $100\%$).
@@ -73,7 +73,7 @@ The complete prototype was developed and validated virtually using **Wokwi** wit
 ```text
                            SMART DUSTBIN EMBEDDED SYSTEM
                                          │
-                                         ▼
+                                           ▼
                            ┌──────────────────────────┐
                            │   Arduino UNO (MCU)      │
                            │  ATmega328P Controller   │
