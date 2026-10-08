@@ -103,7 +103,7 @@ The complete prototype was developed and validated virtually using **Wokwi** wit
 ## 🔄 Working Principle
 
 The system operates continuously using non-blocking timing intervals to evaluate proximity, fill depth, and display updates.
-
+        
 ```text
 Hand / Object Approaching
        ↓
