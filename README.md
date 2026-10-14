@@ -24,7 +24,7 @@ This project delivers a dual-sensor autonomous embedded solution with local LCD 
 - **Live 16x2 I2C LCD Display**: Real-time bin fill percentage, lid operation status, and critical system warnings are displayed locally on a 16x2 Liquid Crystal Display connected via the I2C bus.
 - **Multi-Tiered Alert & Safety Interlock**: When waste capacity reaches or exceeds **90%**, the system activates a **Red warning LED**, shuts off the **Green ready LED**, emits periodic beeps via an **active buzzer**, displays `BIN FULL! LOCK` on the LCD, and engages an **overflow safety interlock** that locks the lid closed to prevent waste spillage.
 
-The complete prototype was developed and validated virtually using **Wokwi** with **Arduino UNO and PlatformIO**, providing practical experience in time-of-flight ultrasonic sensing, I2C communication, GPIO control, PWM motor actuation, state machine scheduling, non-blocking timers, serial telemetry debugging, and technical documentation.
+The complete prototype was developed and validated virtually using **Wokwi** with **Arduino UNO and PlatformIO**, providing practical experience in time-of-flight ultrasonic sensing, I2C communication, GPIO control, PWM motor actuation, state machine scheduling, non-blocking timers, serial telemetry debugging, and technical documentation.    
 
 > **Project Note:** The current project is a **functional virtual prototype** validated in Wokwi and PlatformIO. Physical hardware validation can be performed using the included schematics and wiring guides.
 
